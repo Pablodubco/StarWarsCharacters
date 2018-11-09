@@ -1,0 +1,35 @@
+2018-11-09T02:51:22.282125+00:00 app[api]: Release v1 created by user pablodubco@gmail.com
+2018-11-09T02:51:22.422644+00:00 app[api]: Enable Logplex by user pablodubco@gmail.com
+2018-11-09T02:51:22.422644+00:00 app[api]: Release v2 created by user pablodubco@gmail.com
+2018-11-09T02:51:22.282125+00:00 app[api]: Initial release by user pablodubco@gmail.com
+2018-11-09T03:05:41.000000+00:00 app[api]: Build started by user pablodubco@gmail.com
+2018-11-09T03:05:52.536256+00:00 app[api]: Release v3 created by user pablodubco@gmail.com
+2018-11-09T03:05:52.536256+00:00 app[api]: Deploy b12dc813 by user pablodubco@gmail.com
+2018-11-09T03:05:52.555277+00:00 app[api]: Scaled to web@1:Free by user pablodubco@gmail.com
+2018-11-09T03:05:53.000000+00:00 app[api]: Build succeeded
+2018-11-09T03:05:58.859580+00:00 heroku[web.1]: Starting process with command `server.js`
+2018-11-09T03:06:02.519491+00:00 heroku[web.1]: Process exited with status 127
+2018-11-09T03:06:02.407802+00:00 app[web.1]: bash: server.js: command not found
+2018-11-09T03:06:02.551445+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-09T03:06:02.553554+00:00 heroku[web.1]: State changed from crashed to starting
+2018-11-09T03:06:06.582469+00:00 heroku[web.1]: Starting process with command `server.js`
+2018-11-09T03:06:10.724987+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-09T03:06:10.699035+00:00 heroku[web.1]: Process exited with status 127
+2018-11-09T03:06:10.632653+00:00 app[web.1]: bash: server.js: command not found
+2018-11-09T03:06:45.463995+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=afternoon-peak-51823.herokuapp.com request_id=3bd0155f-541a-4554-8fb5-80746bd26e0f fwd="189.249.160.105" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-09T03:06:46.415428+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=afternoon-peak-51823.herokuapp.com request_id=a0376ea2-cdca-4c08-a7ea-d1b5c91a93dd fwd="189.249.160.105" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-09T03:10:02.000000+00:00 app[api]: Build started by user pablodubco@gmail.com
+2018-11-09T03:10:13.559065+00:00 heroku[web.1]: State changed from crashed to starting
+2018-11-09T03:10:16.175018+00:00 heroku[web.1]: Starting process with command `node server.js`
+2018-11-09T03:10:12.724807+00:00 app[api]: Release v4 created by user pablodubco@gmail.com
+2018-11-09T03:10:12.724807+00:00 app[api]: Deploy 1110b269 by user pablodubco@gmail.com
+2018-11-09T03:10:13.000000+00:00 app[api]: Build succeeded
+2018-11-09T03:10:19.378679+00:00 app[web.1]: App listening on PORT 3000
+2018-11-09T03:11:16.632216+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-11-09T03:11:16.632216+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-11-09T03:11:16.739933+00:00 heroku[web.1]: State changed from starting to crashed
+2018-11-09T03:11:16.714555+00:00 heroku[web.1]: Process exited with status 137
+2018-11-09T03:11:20.352972+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=afternoon-peak-51823.herokuapp.com request_id=80cef544-142e-49e8-aa9a-7ec8d5f30fc2 fwd="189.249.160.105" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-09T03:11:20.889688+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=afternoon-peak-51823.herokuapp.com request_id=279c28d7-3a4f-4af7-afd1-13ea4088d165 fwd="189.249.160.105" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-09T03:15:19.433976+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=afternoon-peak-51823.herokuapp.com request_id=9b1e4bd0-9cef-4959-9877-692bd81ce674 fwd="189.249.160.105" dyno= connect= service= status=503 bytes= protocol=https
+2018-11-09T03:15:20.139623+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=afternoon-peak-51823.herokuapp.com request_id=72670b6d-d7d4-45dd-93fd-866bc2083cdd fwd="189.249.160.105" dyno= connect= service= status=503 bytes= protocol=https
